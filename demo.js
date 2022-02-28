@@ -211,7 +211,7 @@ Bot.command('shop2', (ctx) => {
 });
 
 Bot.command('global', (ctx, next) => {
-    console.log(actions);
+    console.log('Global command');
 });
 Bot.action('global', (ctx, next) => {
     ctx.reply('Global action');
