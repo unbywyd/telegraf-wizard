@@ -15,7 +15,7 @@ function i18n(options={}) {
     let {dirLanguagesPath} = this.options;   
     this.pathToLanguages = path.join(process.cwd(), dirLanguagesPath);
     if(!fs.existsSync(this.pathToLanguages)) {
-        throw new Error(this.pathToLanguages + " path to dir languages not exist");
+        this.pathToLanguages = path.join(__dirname, '../', dirLanguagesPath);
     }
     let files = fs.readdirSync(this.pathToLanguages);
     this.modules = {}
