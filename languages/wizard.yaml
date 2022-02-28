@@ -1,0 +1,107 @@
+back_control_label:
+  en: Back
+  ru: ← Назад
+  he: ← חזרה
+  uz: ← Orqaga
+
+exit_control_label:
+  en: Exit
+  ru: Завершить
+  he: לסים
+  uz: Bajarildi
+
+enter_wizard_message: 
+  en: "#wizard/enter_wizard_message.en"
+  ru: "#wizard/enter_wizard_message.ru"
+  he: "#wizard/enter_wizard_message.he"
+  uz: "#wizard/enter_wizard_message.uz"
+
+exit_wizard_message:
+  en: "Dialog <b>{{name}}</b> {{#if completed}}completed successfully!{{else}}aborted and completed.{{/if}}"
+  ru: "Диалог <b>{{name}}</b> {{#if completed}}завершен успешно!{{else}}прерван и завершен.{{/if}}"
+  he: "דיאלוג <b>{{name}}</b> {{#if completed}} הושלם בהצלחה!{{else}} הופסק והסתיים.{{/if}}"
+  uz: "<b>{{name}}</b> {{#if completed}} dialogi muvaffaqiyatli yakunlandi!{{else}} uzildi va yakunlandi.{{/if}}"
+
+apply_exit_wizard_btn_label:
+  en: Yes finish and exit!
+  ru: Да завершить и выйти!
+  he: "כן, להשלים ולצאת!"
+  uz: Ha, tugating va chiqing!
+
+question_about_exiting_the_wizard:
+  en: "#wizard/question_about_exiting_the_wizard.en"
+  ru: "#wizard/question_about_exiting_the_wizard.ru"
+  he: "#wizard/question_about_exiting_the_wizard.he"
+  uz: "#wizard/question_about_exiting_the_wizard.uz"
+
+timeout_message:
+  en: The <b>{{name}}</b> dialog has timed out, the dialog will end
+  ru: Время на <b>{{name}}</b> диалог истекло, диалог будет завершен
+  he: "תם הזמן הקצוב לדו-שיח <b>{{name}}</b>, הדו-שיח יסתיים"
+  uz: <b>{{name}}</b> muloqot oynasi vaqti tugadi, muloqot tugaydi
+
+stepper_message:
+  en: 💬 Step {{stepNumber}} from {{amount}} 
+  ru: 💬 Шаг {{stepNumber}} из {{amount}}
+  he: "💬 שלב {{stepNumber}} מ-{{amount}}"
+  uz: 💬 {{amount}} dan {{faol}} qadam
+
+wizard_completed_stepper_message:
+  en: Dialogue <b>{{name}}</b> completed!
+  ru: Диалог <b>{{name}}</b> завершен!
+  he: "דו-שיח <b>{{name}}</b> הושלם!"
+  uz: <b>{{name}}</b> dialogi tugallandi!
+
+dialog_status_label:
+  en: "🕛 <b>Dialogue status:</b>"
+  ru: "🕛 <b>Статус диалога:</b>"
+  he: "🕛 <b>סטטוס דיאלוג:</b>"
+  uz: "🕛 <b>Dialog holati:</b>"
+
+dialog_status_dialog_started:
+  en: Start of <b>{{name}}</b> dialogue
+  ru: Начало диалога <b>{{name}}</b>
+  he: "התחל דו-שיח <b>{{name}}</b>"
+  uz: <b>{{name}}</b> dialog oynasi boshlanadi
+
+direct_editing_is_not_supported:
+  en: Direct editing is not supported
+  ru: Прямое редактирование  не поддерживается
+  he: עריכה ישירה אינה נתמכת
+  uz: To'g'ridan-to'g'ri tahrirlash qo'llab-quvvatlanmaydi
+  
+step_number:
+  en: "✍ {{number}} Step …………………………………………………………"
+  ru: "✍ {{number}} Шаг ……………………………………………………………"
+  he: "✍ {{number}} שלב ……………………………………………………………"
+  uz: "✍ {{number}} Qadam ……………………………………………………………"
+
+action_unknown:
+  en: ❌ The action is not recognized or is stale
+  ru: ❌ Событие не распознано или устарело
+  he: "❌ הפעולה אינה מזוהה או שהיא מעופש"
+  uz: "❌ Harakat tan olinmagan yoki eskirgan"
+  
+message_unknown: 
+  en: Your message is not clear to me
+  ru: Ваше сообщение мне не понятно
+  he: הודעתך לא ברורה לי
+  uz: Sizning xabaringiz menga tushunarli emas
+
+confirm_btn_label:
+  en: Confirm
+  ru: Подтвердить
+  he: "לאשר"
+  uz: Tasdiqlash
+
+cancel_btn_label:
+  en: Cancel
+  ru: Отменить
+  he: "לבטל"
+  uz: Bekor qilish
+
+an_unknown_error_has_occurred:
+  en: An unknown error has occurred
+  ru: Возникла неизвестная ошибка
+  he: "אירעה שגיאה לא ידועה"
+  uz: Noma'lum xatolik yuz berdi

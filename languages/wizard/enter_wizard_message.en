@@ -1,0 +1,7 @@
+✏ Starting a dialogue - <b>{{name}}</b>.
+
+During the conversation, you can:
+
+✅ Answer a question
+✅ Go to previous step (/back)
+✅ Terminate the dialogue (/exit)
