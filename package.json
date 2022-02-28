@@ -1,6 +1,6 @@
 {
   "name": "telegraf-wizard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Allows you to create wizards that consist of scenes",
   "author": "Unbywyd IsraeliCoder <unbywyd@gmail.com> (https://unbywyd.com)",
   "main": "index.js",

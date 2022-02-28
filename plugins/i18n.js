@@ -15,7 +15,7 @@ function i18n(options={}) {
     let {dirLanguagesPath} = this.options;   
     this.pathToLanguages = path.join(process.cwd(), dirLanguagesPath);
     if(!fs.existsSync(this.pathToLanguages)) {
-        throw new Error(`${this.pathToLanguages} path to dir languages not exist`);
+        throw new Error(this.pathToLanguages + " path to dir languages not exist");
     }
     let files = fs.readdirSync(this.pathToLanguages);
     this.modules = {}
@@ -81,7 +81,7 @@ i18n.prototype.subscribe = function(ctx, languageCode) {
         let langs = this.modules[moduleName];
         
         return (str, context={}) => {
-            if(!langs[str]) {
+            if(!langs || langs && !langs[str]) {
                 return str
             } else {
                 let sourceStr = langs[str][languageCode] ? langs[str][languageCode] : (langs[str][this.options.defaultLanguage] || str);
