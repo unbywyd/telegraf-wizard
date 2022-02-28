@@ -57,7 +57,7 @@ module.exports = function(Bot, globalOptions={}) {
         this.options = {
             ...{
                 localeName: 'wizard',
-                begined: (context) => {}, 
+                began: (context) => {}, 
                 completed: (context, data) => {},                
                 controls: true, 
                 displaySceneNamesOnStepper: null, 
@@ -134,7 +134,7 @@ module.exports = function(Bot, globalOptions={}) {
             if(options.stepNotifications) {
                 await this.createSteppepMessage(context);
             }
-            return options.begined.call(this, context);
+            return options.began.call(this, context);
         }
 
         if(!Bot.timeOutScene) {

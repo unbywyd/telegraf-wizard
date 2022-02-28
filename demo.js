@@ -11,7 +11,7 @@ let demoProcessEnv = {
 
 const Bot = new Telegraf(demoProcessEnv.BOT_TOKEN);
 
-let {wizard: Wizard, subscribe : Subscribe, plugins: {i18n, mediaGroup}, close: Close, helpers: {sendAnswerMessage, replyToAnswerMessage, createAction, mergeActions}} = require('./wizard')(Bot, {
+let {wizard: Wizard, subscribe : Subscribe, plugins: {i18n, mediaGroup}, close: Close, helpers: {sendAnswerMessage, replyToAnswerMessage, createAction, mergeActions}} = require('./')(Bot, {
     ttl: 12000, // You can assign global settings for all wizards
     stepNotifications: true
     //translator: (context, {module}) => (str) => str // Custom method for translations

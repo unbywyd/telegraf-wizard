@@ -1,6 +1,10 @@
 ## Telegraf.js Wizard
 This add-on provides grouping of BaseScenes into wizards
 
+### Get Started
+
+[Just use this demo file](https://github.com/unbywyd/telegraf-wizard/blob/master/demo.js)
+
 ### Features
 * Multiple number of wizards
 * Creating linear wizards (when moving through the scenes relative to the order in which they were added to the wizard)
@@ -74,7 +78,7 @@ wizard.addScene({
 
 wizard.addScene({
     id: 'fruits'
-}, step2), function() { 
+}, step2, function() { 
     this.next(); // Default action, the same as without this function
 });
 
@@ -161,7 +165,7 @@ wizard.begin(context, {
 {
     translator: (context, {module}) // global option only, custom i18n translation function
     localeName: 'wizard', // Module name for i18n plugin
-    begined: (context) => {},  // callback when running wizard for user, this = wizard
+    began: (context) => {},  // callback when running wizard for user, this = wizard
     completed: (context, data) => {}, // when the wizard ended for the user, data - combined data of all wizard scenes, this = wizard            
     controls: true,  // Back and Exit buttons
     displaySceneNamesOnStepper: null, // For non-linear wizards, show scene names
