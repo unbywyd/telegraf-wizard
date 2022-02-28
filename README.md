@@ -1,7 +1,9 @@
 ## Telegraf.js Wizard
 This add-on provides grouping of BaseScenes into wizards
 
-### Get Started
+### Get Started 
+
+Don't forget to include your BOT_ID and replace the included package name from `./` to `telegraf-wizard`
 
 [Just use this demo file](https://github.com/unbywyd/telegraf-wizard/blob/master/demo.js)
 
