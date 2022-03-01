@@ -1,10 +1,11 @@
 {
   "name": "telegraf-wizard",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Allows you to create wizards that consist of scenes",
   "author": "Unbywyd IsraeliCoder <unbywyd@gmail.com> (https://unbywyd.com)",
   "main": "index.js",
   "license": "ISC",
+  "keywords":["telegraf", "wizard", "telegram", "bot"],
   "repository": {
     "type": "git",
     "url": "https://github.com/unbywyd/telegraf-wizard"
